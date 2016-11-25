@@ -4,3 +4,4 @@ Up to date(11/24/2016), there is only `2` solution. However, this number is incr
 ### Dynamic Programming
 1. Minimum Path Sum 
 2. Triangle
+3. Jump Game II 
