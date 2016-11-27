@@ -1,0 +1,20 @@
+class Solution:
+    def firstWillWin(self, values):
+        n = len(values)
+        if n < 3:
+            return True
+        F = [values[-1] for _ in xrange(n)] 
+        F[-2] = values[-1] + values[-2] 
+        for i in xrange(n - 3, -1, -1):
+            x = F[i + 4] if (i + 4 <= n - 1) else 0 
+            y = F[i + 3] if (i + 3 <= n - 1) else 0
+            z = F[i + 2] if (i + 2 <= n - 1) else 0 
+            F[i] = max(values[i] + min(y, z), 
+                       values[i] + values[i + 1] + min(x, y))
+        return F[0] > sum(values) - F[0]
+
+# Time: O(n) 
+# Space: O(n) 
+# F[i]: from ith index to the end, the maximum value first player can obtain. 
+# Case 1: at index i, player takes one coin (i.e. values[i] + min(y, z)) - line 12
+# Case 2: at index i, player takes two coins (i.e. values[i] + values[i + 1] + min(x, y)) - line 13 
