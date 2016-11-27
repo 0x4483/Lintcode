@@ -19,8 +19,8 @@ class Solution:
             jump = 0
             for i, item in enumerate(A):
                 if i > current: 
-                    if item  == 0:
-                      return -1
+                    if item == 0:
+                        return False
                     current = reached
                     jump += 1
                 reached = max(reached, item + i)  
