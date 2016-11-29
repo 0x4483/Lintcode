@@ -1,0 +1,23 @@
+
+class Solution:
+    def maxProfit(self, prices):
+        hold1 = float("-inf")  
+        hold2 = float("-inf")
+        release1 = 0
+        release2 = 0
+        for i in prices:
+            release2 = max(release2, hold2 + i)
+            hold2    = max(hold2,    release1 - i)
+            release1 = max(release1, hold1 + i)
+            hold1    = max(hold1,    -i);
+        return release2
+        
+# Time: O(n) 
+# Space: O(1) 
+# Comments: 
+# for any given day, we either hold or release stock
+# for any given day, release is the holding amount plus that day's stock price $ 
+# for any given day, after release, we hold release - stock price $ 
+
+
+
