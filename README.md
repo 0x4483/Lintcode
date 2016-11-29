@@ -1,5 +1,5 @@
 # Lintcode
-Up to date(11/24/2016), there are only `7` solutions. However, this number is increasing fast recently. Stay updated and I will write better solutions. 
+Up to date(11/24/2016), there are only `8` solutions. However, this number is increasing fast recently. Stay updated and I will write better solutions. 
 
 ### Dynamic Programming
 
