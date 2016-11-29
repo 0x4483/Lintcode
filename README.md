@@ -1,5 +1,5 @@
 # Lintcode
-Up to date(11/24/2016), there are only `8` solutions. However, this number is increasing fast recently. Stay updated and I will write better solutions. 
+Up to date(11/24/2016), there are only `9` solutions. However, this number is increasing fast recently. Stay updated and I will write better solutions. 
 
 ### Dynamic Programming
 
@@ -11,3 +11,4 @@ Up to date(11/24/2016), there are only `8` solutions. However, this number is in
 6. Edit Distance 
 7. Coins in a Line II 
 8. Best Time to Buy and Sell Stock 
+9. Best Time to Buy and Sell Stock II 
