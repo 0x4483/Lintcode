@@ -1,4 +1,5 @@
-# link: https://youtu.be/cSQsT_blRhM
+# link 1: https://youtu.be/cSQsT_blRhM
+# link 2: https://youtu.be/bwkDgVgT1yk
 
 # Solution 1 passes 88% of the test, fail on large size string s 
 class Solution:
