@@ -1,5 +1,5 @@
 # Lintcode
-Up to date(12/29/2016), there are only `11` solutions. However, this number is increasing fast recently. Stay updated and I will write better solutions. 
+Up to date(12/29/2016), there are only `12` solutions. However, this number is increasing fast recently. Stay updated and I will write better solutions. 
 
 ### Dynamic Programming
 
@@ -14,3 +14,4 @@ Up to date(12/29/2016), there are only `11` solutions. However, this number is i
 9. Best Time to Buy and Sell Stock II 
 10. Best Time to Buy and Sell Stock III
 11. Distinct Subsequences 
+12. Word Break
